@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formukarios</title>
+  </head>
+  <body>
+    <form action="procesar_datos.php" method="post"> <!--Método post para enviar información al servidor-->
+      <p>
+        Introduce tu nombre de usuario:
+        <input type="text" name="Nombre" value="">
+      </p>
+      <br>
+      <p>
+        Introduce la contraseña:
+        <input type="password" name="clave" value=""> <!--El tipo password muestra asteriscos en vez de el texto-->
+      </p>
+      <p>
+        Introduce tu comentario:
+        <textarea name="mensaje" rows="8" cols="80"></textarea>
+      </p>
+      <p>
+        <input type="file" name="fichero" value="">
+      </p>
+    </form>
+  </body>
+</html>
+
+<!--Elemento form que actúa como contenedor de los controles que permiten interactuar con el usuario-->
+<!--El elemento form tiene atributos-->
+<!--Atributo action quien procesa la información-->
+<!--Atributo Method indica método HTTP usado, puede ser POST y GET-->
+<!--https://developer.mozilla.org/es/docs/Web/HTML/Elemento/form-->
+
+<!--Elemento input para los controles. Varían según el atributo type-->
+<!--https://developer.mozilla.org/es/docs/Web/HTML/Elemento/input#Atributos-->

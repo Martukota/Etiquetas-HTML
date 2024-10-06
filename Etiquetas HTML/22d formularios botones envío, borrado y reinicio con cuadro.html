@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formularios con botones de envío</title>
+  </head>
+  <body>
+      <form class="red" action="procesar_datos.php" method="post">
+        <fieldset>
+      <legend>Envía tu Currículum</legend>
+      <p>
+        Introduce tu nombre de usuario:
+        <input type="text" name="Nombre" value="">
+      </p>
+      <br>
+      <p>
+        Introduce la contraseña:
+        <input type="password" name="clave" value=""> <!--El tipo password muestra asteriscos en vez de el texto-->
+      </p>
+      <p>
+        Introduce tu comentario:
+        <textarea name="mensaje" rows="8" cols="80"></textarea>
+      </p>
+      <p>
+        <input type="file" name="fichero" value="">
+      </p>
+    </fieldset>
+      <p>
+        <b>Ejemplo de botón de opciones:</b></br>
+        Selecciona un producto<br/>
+        <input type="radio" name="productos" value="aguacate"> <!--Input tipo radio para botón de opciones-->
+        El aguacate de la Axarquía </br>
+        <input type="radio" name="productos" value="plátano">
+        El plátano de Canarias </br>
+        <input type="radio" name="productos" value="chirimollo">
+        La chirimolla de Motril <br>
+        <input type="radio" name="productos" value="longan">
+        El longan del Sur de China
+      </p>
+      <br>
+      <p>
+        <b>Control de selección y verificación:</b></br>
+        Selecciona un producto favorito...<br/>
+        <input type="checkbox" name="a1" value="aguacate">El Aguacate<br> <!--Input tipo checkbox para botón de opciones-->
+        <input type="checkbox" name="a2" value="platano">El Plátano<br>
+        <input type="checkbox" name="a3" value="chirimolla">La chirimolla<br>
+        <input type="checkbox" name="a4" value="longan">EL Longan<br>
+      </p>
+      <br>
+      <p>
+        <b>Ejemplo de listas:</b></br>
+        Selecciona un producto favorito...</br>
+        <select name="Color">
+          <option>aguacate</option>
+          <option>plátano</option>
+          <option>chirimolla</option>
+          <option>Longan</option><br>
+        </select>
+      </p>
+      <br>
+        <fieldset>
+          <legend>Botones de enviar y resetear el contenido</legend>
+          <input type="submit" name="Enviar datos" value="Enviar"> <!--Botón de envío-->
+          <input type="reset" name="Borrar datos" value="Borrar"><!--Botón de reinicio-->
+        </fieldset>
+    </form>
+  </body>
+</html>
