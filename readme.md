@@ -1,5 +1,4 @@
-#   Mi primer Markdown
-##  Archivo de prueba
+#   Código de lenguaje HTML
 
 Documentación relativa al módulo de Lenguaje marcas. Aquí muestro diferentes ejemplos con etiquetas.
 
