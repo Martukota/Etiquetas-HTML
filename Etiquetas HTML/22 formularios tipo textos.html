@@ -1,36 +1,44 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Formukarios</title>
-  </head>
-  <body>
-    <form action="procesar_datos.php" method="post"> <!--Método post para enviar información al servidor-->
-      <p>
-        Introduce tu nombre de usuario:
-        <input type="text" name="Nombre" value="">
-      </p>
-      <br>
-      <p>
-        Introduce la contraseña:
-        <input type="password" name="clave" value=""> <!--El tipo password muestra asteriscos en vez de el texto-->
-      </p>
-      <p>
-        Introduce tu comentario:
-        <textarea name="mensaje" rows="8" cols="80"></textarea>
-      </p>
-      <p>
-        <input type="file" name="fichero" value="">
-      </p>
-    </form>
-  </body>
+<html lang="es-ES">
+
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <!--Etiqueta <form> para crear formularios - Interactuar con usuarios-->
+        <form>
+            <p>Introduce tu nombre de usuario:</p>
+            <!--Etiqueta <input> para recibir los datos-->
+            <input>
+            <p>Introduce la contraseña:</p>
+            <input>
+            <p>Introduce un comentario</p>
+            <input>
+            <p>Adjunta un fichero:</p>
+            <input>
+        </form>
+    <hr>
+      
+   
+        <form>
+            <!--Etiqueta <input> para recibir los datos-->
+            <!--https://developer.mozilla.org/es/docs/Web/HTML/Elemento/input#Atributos-->
+
+            <p>Introduce tu nombre de usuario:</p>
+            <input type="text" name="Nombre"> <!--atributo tipo para insertar texto-->
+            
+            <p>Introduce la contraseña:</p>
+            <input type="password"> <!--atributo tipo password para insertar contraseñas (se muestran *)-->
+            
+            <p>Introduce tu correo</p>
+            <input type="email"> <!--atributo tipo correo válido-->
+            
+            <p>Adjunta un fichero:</p>
+            <input type="file"> <!--atributo tipo archivo-->
+
+        </form>
+
+    </body>
+
 </html>
-
-<!--Elemento form que actúa como contenedor de los controles que permiten interactuar con el usuario-->
-<!--El elemento form tiene atributos-->
-<!--Atributo action quien procesa la información-->
-<!--Atributo Method indica método HTTP usado, puede ser POST y GET-->
-<!--https://developer.mozilla.org/es/docs/Web/HTML/Elemento/form-->
-
-<!--Elemento input para los controles. Varían según el atributo type-->
-<!--https://developer.mozilla.org/es/docs/Web/HTML/Elemento/input#Atributos-->
