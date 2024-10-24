@@ -1,33 +1,65 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="es-ES">
+
   <head>
     <meta charset="utf-8">
-    <title>Uso de diviones</title>
+    <title>Uso de divisiones</title>
   </head>
+
+
+    <!--Los DIV y span en https://www.w3schools.com/html/html_blocks.asp -->
+    <!--Los estilos en https://www.w3schools.com/html/html_styles.asp --> 
+
+
   <body>
+
+    <h1>Diferencias entre div y span</h1>
+
+    <!--La etiqueta <div> permite agrupar elementos relacionados, 
+      como texto, imágenes, formularios, etc., para tratarlos como una unidad
+      Se dice que es un elemento de bloque, crea un salto de línea, antes y después-->
+
+    <div>
+        <h2>Título de la sección</h2>
+        <p>Este es el contenido dentro del div.</p>
+        <button>Haz clic aquí</button>
+    </div>
+
+    <!--Se pueden aplicar estilos, pero es más habitual hacerlo con CSS--> 
+
     <div style="color: blue;">
-      <h2> Ejemplo de div y span </h2>
+      <h2> Ejemplo de div con color</h2> 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat rhoncus massa, 
+      tincidunt ullamcorper diam vulputate ut. Lorem ipsum dolor sit amet, 
+      consectetur adipiscing elit. Nullam dignissim tincidunt ipsum a cursus. 
+      Nulla venenatis enim sit amet est sollicitudin facilisis. 
+      Aliquam ac faucibus lorem. Mauris nunc nulla, convallis ut massa eu, 
+      elementum malesuada quam. Aliquam id quam in massa efficitur consectetur
+      eget et libero. Etiam at venenatis urna. Nullam ut ipsum vitae mauris 
+      ultricies consequat eget quis eros. Pellentesque libero mi, sodales sit amet 
+      purus ut, condimentum sodales enim.    
+    </div>
+
+    <div style="border-style: dotted; border-width: 2px; border-color: rgb(226, 43, 86); color: blueviolet;">
+      <h2>Ejemplo de div y span </h2>
       <p>
         Esto es un párrafo dentro de un div,
-        <span style="color: red;"> y esto un span dentro de un párrafo.</span>
+        <span style="color: green;"> y esto un span dentro de un párrafo. </span> 
+        <!--Se usa span para aplicar estilos a una porción específica del texto-->    
       </p>
     </div>
-    <div style="border: 1px dotted blue;">
-  <h4>Ejemplo de div y span </h4>
-   <p>
-    Esto es un párrafo dentro de un div,
-     <span style="color: red;"> y esto un span dentro de un párrafo. </span>
-   </p>
- </div>
- <h1>Pintando el arcoíris</h1>
 
- <p>Chicos, esta vez usaremos los siguientes colores:
-   <span style="color: #ed1b24">rojo</span>, <span style="color: #d9cc00">amarillo</span>,
-   <span style="color: #00a3e8">azul</span>, <span style="color: #a349a3">violeta</span>,
-   <span style="color: #ff7f26">naranja</span>, <span style="color: #a1cc1b">verde</span>
-   e <span style="color: #5701ae">índigo</span>.</p>
+
+    <h2>Pintando el arcoíris</h2>
+
+    <!--El párrafo también separa en bloque-->
+    <p>Esta vez usaremos los siguientes colores:
+      <span style="color: red">rojo</span>, <span style="color: orange">naranja</span>,
+      <span style="color: yellow">amarillo</span>, <span style="color: green">verde</span>
+      <span style="color: blue">azul</span>, <span style="color: indigo">índigo</span> y 
+      <span style="color: purple">violeta</span>.
+    </p>
+
   </body>
-</html>
 
-<!--Los DIV y span en https://www.w3schools.com/html/html_blocks.asp-->
-<!--Los estilos en https://www.w3schools.com/html/html_styles.asp-->
+</html>
