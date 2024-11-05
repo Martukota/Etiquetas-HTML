@@ -125,8 +125,14 @@ summary {
 
 /* Estilos para el pie de página */
 footer {
+    font-size: small;
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+/*Estilo del párrafo demo para mostrar la hora más pequeña*/
+#demo {
+    font-size: 25%;
 }
