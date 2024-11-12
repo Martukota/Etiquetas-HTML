@@ -1,0 +1,27 @@
+
+#enlaces{
+  width: 100%;
+  height: auto; /*se puede poner en píxeles, por ejemplo 200 px*/
+  background-color: green;
+  border-style:double;
+  margin:1em; /*separación del elemento y resto de las cajas, L, R, T, B */
+  padding: 2em; /*separación del texto y la caja, L, R, T, B */
+}
+#cabecera{
+  width: 75%;  /*ancho*/
+  height:auto; /*alto*/
+  background-color: red;
+  border-style:dotted; /*borde*/
+  margin: 2em;
+  padding: 4em;
+  background-image: url(marcadeagua.png);
+}
+
+#contenido{
+  width: 100%;
+  height:auto;
+  background-color: blue;
+  border-style:groove;
+  margin:1em;
+  padding:1em;
+}

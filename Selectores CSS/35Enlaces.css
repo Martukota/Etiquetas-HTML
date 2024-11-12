@@ -1,0 +1,23 @@
+/*Se definen pseudoclases para definir cada uno de los aspectos de un enlace:*/
+
+
+a{                                /*un estilo para todos los enlaces*/
+  font-size: 20px;
+  text-decoration: none;
+  padding:10px;
+  margin: 10px 20px 10px 00px;
+}
+a:link{                            /*aún no han sido visitados*/
+  color: green;
+  }
+a:visited{                         /*recursos que han sido visitados*/
+  color:blue;
+  }
+a:hover{                           /*por encima del enlace pero sin pinchar*/
+  color:lime;
+  text-decoration: underline;
+  background-color: #000;
+  }
+a:active{                         /*cuando se pincha en el enlace*/
+  color:purple;
+  }

@@ -1,0 +1,19 @@
+div {
+  width:100%;
+}
+
+img.grande {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  display: block;
+  border-radius: 200px;
+  box-shadow: 5px 5px 1px #ccc; /*horizontal y vertical, difuminado y color*/
+}
+img.pequeña {
+  width: 20%;
+  height: auto;
+  border-radius: 200px;
+  padding:10px ;
+  border: 5px solid #ccc;
+}

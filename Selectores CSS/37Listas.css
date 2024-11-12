@@ -1,0 +1,19 @@
+.menu {
+  width: 100%;
+  background-color: #000;
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
+.menu li{
+  display:inline-block; /*uno al lado del otro*/
+  /*convierte un elemento de línea en un elemento de bloque*/
+}
+.menu li a{
+  padding: 10px 20px;
+  display: inline-block; /*separa por encima*/
+}
+.menu li a:hover{         /*pseudoclase para enlaces "pasar por encima"*/
+  background-color: #CCC;
+  color: #FFF;
+}

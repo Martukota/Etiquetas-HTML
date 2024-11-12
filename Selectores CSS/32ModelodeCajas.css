@@ -1,0 +1,35 @@
+/*MODELO DE CAJAS: Definimos selectores tipo id (#) llamado ENLACES para menú de enlaces,
+CABECERA para título de la página, y CONTENIDO para el cuerpo de la página*/
+
+/*Para los ENLACES no hace falta añadir un DIV al HTML porque ul (lista desordenada)
+es un elemento de bloque*/
+#enlaces{
+  width: 50%;
+  height:100px;
+  background-color: green;
+  border-style:double;
+  margin:1.2em;
+  padding:2em;
+}
+
+/*Para la CABECERA tenemos que añadir un DIV en el HTML para poder "hacer" la caja (hacernos un bloque)*/
+/*La definición de cada característica: Figura 4.3 Representación tridimensional Box Model
+https://uniwebsidad.com/libros/css/capitulo-4   */
+#cabecera{
+  width: 75%;  /*ancho es porcentaje con respecto al ancho de la ventana*/
+  height:100px; /*alto*/
+  background-color: red;
+  border-style:dotted; /*borde*/
+  margin: 1.2em; /*separación del elemento y resto de las cajas, L, R, T, B */
+  padding: 4em; /*separación del contenido y su borde*/
+  background-image: url(marcadeagua.png) /*archivos png con transparencia*/
+                                        /*archivos jpg para imágenes de fondo*/
+}
+/*Para el CONTENIDO tenemos que añadir un DIV en el HTML para poder "hacer" la caja (hacernos un bloque)*/
+#contenido{
+  width: 500px;
+  height:100px;
+  background-color: blue;
+  border-style:groove;
+  margin:1.2em;
+  padding:6em;
