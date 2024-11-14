@@ -1,5 +1,6 @@
 /*TIPOS DE SELECTORES*/
 
+/*
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,7 @@
   que se aplica a todo el documento*/
 /*--------------------------------------------------------------------*/
 
+/*
 body {
   background-color: orange;
 }
@@ -18,31 +20,37 @@ p {
 /* el SELECTOR DE TIPO se aplica a cada uno de los elementos (etiquetas)
    de la página*/
 /*--------------------------------------------------------------------*/
-
+/*
 h1 {
   color: yellow;
 }
 h2 {
   color: yellow;
 }
+*/
+/*
 h1, h2 {
   color: yellow ;
   font-family: Verdana;
 }
+*/
+
 /* se pueden agrupar las reglas individuales en una sola regla con un
    SELECTOR MÚLTIPLE, incluyendo todos los selectores separados por una coma */
 /*--------------------------------------------------------------------*/
-
-h1 {
+/*
+h1,h2 {
   font-size: 26pt ;
+  color:blueviolet
 }
 h2 {
-  font-size: small ;
+  background-color: aquamarine ;
 }
 /* se pueden definir dos veces, una para propiedades comunes y otra para
    propiedades específicas */
 /*--------------------------------------------------------------------*/
 
+/*
 p span {
   color: blue ;
 }
@@ -50,6 +58,7 @@ p span {
 Un elemento es descendiente de otro cuando se encuentra entre las etiquetas de
 apertura y de cierre del otro elemento*/
 /*--------------------------------------------------------------------*/
+
 
 .colorMarron {
   color: SaddleBrown;
@@ -66,6 +75,7 @@ p.tamañoGrande{
 HTML con el atributo 'class'*/
 /*--------------------------------------------------------------------*/
 
+/*
 #destacado {
   text-decoration: underline;
 }

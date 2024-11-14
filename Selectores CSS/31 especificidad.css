@@ -1,0 +1,53 @@
+/* 1. Selector universal */
+* {
+    color: gray;
+}
+
+/* 2. Selector de tipo */
+
+p {
+    color: green;
+}
+
+/* 2. Otro selector de tipo */
+
+p {
+    color: blueviolet;
+}
+
+/* 3. Selector de clase */
+.textoazul {
+    color: blue;
+}
+
+/*5. Selector de id*/
+#textomarron {
+    color: brown;
+}
+
+/* 4. Selector de clase más específico */
+p.textorojo {
+    color: red;
+}
+
+/* 6. Selector de ID */
+#textonaranja {
+    color: orange;
+}
+
+
+
+/*
+En este ejemplo están de menos a más:
+Entre diferentes <p> gana el último que aparece
+Entre p y p.class gana p.class
+Entre p y p.id gana p.id
+Entre id y class gana id
+El que pierde siempre es el selector universal
+
+Orden de prioridad:
+id (#)
+p.class
+.class
+p
+*
