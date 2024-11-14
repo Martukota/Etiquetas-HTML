@@ -1,6 +1,6 @@
 /*TIPOS DE SELECTORES*/
 
-/*
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@
   que se aplica a todo el documento*/
 /*--------------------------------------------------------------------*/
 
-/*
+
 body {
   background-color: orange;
 }
@@ -20,15 +20,15 @@ p {
 /* el SELECTOR DE TIPO se aplica a cada uno de los elementos (etiquetas)
    de la página*/
 /*--------------------------------------------------------------------*/
-/*
+
 h1 {
   color: yellow;
 }
 h2 {
   color: yellow;
 }
-*/
-/*
+
+
 h1, h2 {
   color: yellow ;
   font-family: Verdana;
@@ -38,7 +38,7 @@ h1, h2 {
 /* se pueden agrupar las reglas individuales en una sola regla con un
    SELECTOR MÚLTIPLE, incluyendo todos los selectores separados por una coma */
 /*--------------------------------------------------------------------*/
-/*
+
 h1,h2 {
   font-size: 26pt ;
   color:blueviolet
@@ -50,7 +50,7 @@ h2 {
    propiedades específicas */
 /*--------------------------------------------------------------------*/
 
-/*
+
 p span {
   color: blue ;
 }
@@ -75,13 +75,14 @@ p.tamañoGrande{
 HTML con el atributo 'class'*/
 /*--------------------------------------------------------------------*/
 
-/*
+
 #destacado {
   text-decoration: underline;
 }
 /*SELECTOR DE ID permite seleccionar un elemento de la página. Se identifica
 con una almohadilla y se declara en el documento HTML con el atributo 'id'*/
 /*--------------------------------------------------------------------*/
+
 
 /*diferencia entre id y class: id para estilos a un solo elemento específico
 y class para varios elementos diferentes
