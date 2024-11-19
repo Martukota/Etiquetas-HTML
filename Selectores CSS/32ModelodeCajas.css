@@ -24,7 +24,7 @@ header {
 }
 
 nav {                    /*unidades de medida:*/
-  width: 75%;            /*% con respecto al ancho de la ventana. Responsive*/
+  width: 75%;            /*% con respecto al anchol contenedor padre*/
   height: 100px;         /*píxeles: basado en la resolución de la pantalla, un punto de la pantalla. Para diseños precisos */
   background-color: green;
   border-style:double;
@@ -52,7 +52,7 @@ section {
 }
 
 footer {
-  width: 50%; /* Ancho del footer */
+  width: 50vw; /* Ancho del footer 50% del ancho de la ventana en función del área visible */
   text-align: center; /* Centrar el contenido del texto sobre la caja*/
   padding: 10px; /* Espaciado interno */
   background-color: #333; /* Color de fondo oscuro */
