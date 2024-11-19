@@ -13,9 +13,10 @@
 body {
   background-color: orange;
 }
+
 p {
   color: red;
-  background-color: white ;
+  background-color: rgb(185, 172, 223) ;
 }
 /* el SELECTOR DE TIPO se aplica a cada uno de los elementos (etiquetas)
    de la página*/
@@ -71,7 +72,7 @@ apertura y de cierre del otro elemento*/
 p.tamañoGrande{
   font-size: 5em;
 }
-/*SELECTOR DE CLASE: se identifica con un punto y se declara en el documento
+/*SELECTOR DE CLASE: . se identifica con un punto y se declara en el documento
 HTML con el atributo 'class'*/
 /*--------------------------------------------------------------------*/
 
@@ -80,7 +81,7 @@ HTML con el atributo 'class'*/
   text-decoration: underline;
 }
 /*SELECTOR DE ID permite seleccionar un elemento de la página. Se identifica
-con una almohadilla y se declara en el documento HTML con el atributo 'id'*/
+con una almohadilla # y se declara en el documento HTML con el atributo 'id'*/
 /*--------------------------------------------------------------------*/
 
 
