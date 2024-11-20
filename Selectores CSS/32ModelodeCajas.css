@@ -38,7 +38,8 @@ nav ul {
 
 nav ul li {
   font-size: 1.2em;      /*em unidad relativa al tamaño de la fuente del elemento actual.
-                          Escalable, 1.2*15px=18px*/
+                          Escalable, 1.2*15px=18px /// si no definimos, tamaño estándar 
+                          por defecto 16px*/
 }
 
 section {
