@@ -9,6 +9,9 @@
     opacity: transparent ;
 }
 
+h1{
+    margin-left: 3em;
+}
 
 #rojo {
     margin-left:5em;
@@ -16,6 +19,9 @@
     height: 50px;
     position: relative;
     border: 1px solid #AD1519;
+    text-align:center;
+    line-height: 3em;
+    /*color: #AD1519;*/
 }
 
 
@@ -33,6 +39,7 @@
     position: absolute;
     left: 50px;
     background: #AD1519;
+
 }
 #cuadrorojo3 {
     width: 50px;
@@ -40,6 +47,7 @@
     position: absolute;
     left: 100px;
     background: #AD1519;
+
 }
 #cuadrorojo4 {
     width: 50px;
@@ -47,6 +55,7 @@
     position: absolute;
     left: 150px;
     background: #AD1519;
+
 }
 #cuadrorojo5 {
     width: 50px;
@@ -54,6 +63,7 @@
     position: absolute;
     left: 200px;
     background: #AD1519;
+
 }
 #cuadrorojo6 {
     width: 50px;
@@ -61,6 +71,7 @@
     position: absolute;
     left: 250px;
     background: #AD1519;
+
 }
 
 
@@ -71,6 +82,9 @@
     position: relative;
     border: 1px solid #FABD00;
     display: flex;
+    text-align:center;
+    line-height: 3em;
+    /*color: #FABD00;*/
 }
 
 #cuadroamarillo1 {
