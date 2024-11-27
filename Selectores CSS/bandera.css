@@ -19,7 +19,7 @@ h1{
     border: 1px solid #AD1519;
     text-align:center;
     line-height: 3em;
-    color: #AD1519;
+    /*color: #AD1519;*/
 }
 
 
@@ -82,7 +82,7 @@ h1{
     display: flex;
     text-align:center;
     line-height: 3em;
-    color: #FABD00;
+    /*color: #FABD00;*/
 }
 #escudo {
     margin-left: 60px;
