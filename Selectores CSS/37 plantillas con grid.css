@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /*el ancho y alto del elemento solo incluyen el contenido del elemento. El relleno (padding) y el borde (border) se añaden al tamaño final del elemento.*/
 }
 
 body {
